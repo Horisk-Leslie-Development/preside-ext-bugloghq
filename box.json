@@ -1,7 +1,7 @@
 {
     "name":"PresideCMS Extension: buglogHQ",
     "type":"preside-extensions",
-    "version":"0.0.2",
+    "version":"0.0.3",
     "private":false,
     "author":"HLDL",
     "location":"forgeboxstorage",
