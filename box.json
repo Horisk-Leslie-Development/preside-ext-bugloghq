@@ -1,0 +1,23 @@
+{
+    "name":"PresideCMS Extension: buglogHQ",
+    "type":"preside-extensions",
+    "version":"0.0.2",
+    "private":false,
+    "author":"HLDL",
+    "location":"forgeboxstorage",
+    "directory":"application/extensions",
+    "homepage":"https://github.com/Horisk-Leslie-Development/preside-ext-bugloghqhttps://github.com/Horisk-Leslie-Development/preside-ext-bugloghq",
+    "documentation":"",
+    "bugs":"",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/Horisk-Leslie-Development/preside-ext-bugloghq"
+    },
+    "slug":"preside-ext-bugloghq",
+    "projectURL":"https://github.com/Horisk-Leslie-Development/preside-ext-bugloghq",
+    "ignore":[
+        ".git/*",
+        ".gitignore",
+        ".github/*"
+    ]
+}
