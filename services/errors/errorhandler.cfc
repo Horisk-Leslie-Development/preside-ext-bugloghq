@@ -25,10 +25,6 @@ component {
 
 // private
 	private any function _getbuglogClient() {
-		systemOutput(_getListenerUrl());
-        systemOutput(_getAppName());
-        systemOutput(_getBugLogEmailRecipients());
-        systemOutput(_getBugLogEmailSender());
         return new buglogService(
             bugLogListener = _getListenerUrl(),
             apiKey = "",
@@ -54,8 +50,5 @@ component {
     private string function _getBugLogEmailSender() {
 		return application.PRESIDE_BUGLOG_EMAIL_SENDER ?: ( application.injectedConfig.PRESIDE_BUGLOG_EMAIL_SENDER ?: "" );
 	}
-	/* private string function _getAppVersion() {
-		return application.SENTRY_APP_VERSION ?: ( application.injectedConfig.SENTRY_APP_VERSION ?: "" );
-	} */
 
 }
