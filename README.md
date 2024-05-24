@@ -6,7 +6,7 @@ This extension includes the bugLogService.cfc originally from the [BugLogHQ proj
 
 ## Installation
 
-The extension can be [installed through](https://forgebox.io/view/preside-ext-bugloghq).
+The extension can be [installed using Forgebox](https://forgebox.io/view/preside-ext-bugloghq).
 
 ```sh
 box install preside-ext-bugloghq
