@@ -12,12 +12,9 @@ component {
                     Referer: #cgi.http_referer#<br />
                     Error reference <br />
                     ");
-                    writedump(form);
-                    writedump(url);
-                    writedump(cgi);
                }
             
-            systemOutput( "An error occurred: http://#cgi.server_name##cgi.script_name#?#cgi.query_string#" );
+          
             buglogClient.notifyService("#error.cause.message#", error, mailBody, "fatal");
             
 		}
